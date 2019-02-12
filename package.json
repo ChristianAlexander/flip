@@ -2,7 +2,7 @@
   "name": "flip",
   "displayName": "Flip",
   "description": "Reverse those lines!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ChristianAlexander",
   "icon": "images/flip.png",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/christianalexander/flip.git"
   },
   "engines": {
-    "vscode": "^1.31.0"
+    "vscode": "^1.20.0"
   },
   "categories": [
     "Other"

@@ -1,20 +1,20 @@
 # Flip
 
-Flip those lines!
+Reverse those lines!
 
 ## Commands
 
 - `flip.document`: reverse the order of all lines in the document
 
-	![Flip Document](images/reverse-document.gif)
+  ![Flip Document](images/reverse-document.gif)
 
 - `flip.selection`: reverse the order of all lines in each selection
 
-    ![Flip Selected](images/reverse-selected.gif)
+  ![Flip Selected](images/reverse-selected.gif)
 
 ## Release Notes
 
-Initial release.
+Support older versions of VS Code
 
 ### 0.0.1
 
