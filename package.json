@@ -2,7 +2,7 @@
   "name": "flip",
   "displayName": "Flip",
   "description": "Reverse those lines!",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ChristianAlexander",
   "icon": "images/flip.png",
   "repository": {

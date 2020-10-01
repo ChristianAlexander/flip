@@ -19,3 +19,7 @@ Support older versions of VS Code
 ### 0.0.1
 
 Initial release of Flip.
+
+### 0.0.3
+
+Update dependencies to support new VS Code releases
