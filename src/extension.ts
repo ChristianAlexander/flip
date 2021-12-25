@@ -4,12 +4,12 @@ export function activate(context: vscode.ExtensionContext) {
   const reverse = vscode.commands.registerCommand("flip.document", () => {
     const activeEditor = vscode.window.activeTextEditor;
     if (activeEditor) {
-      activeEditor.edit(builder => {
-        const lineCount = activeEditor.document.lineCount;
-        const loopCount = Math.floor((lineCount - 1) / 2);
-        for (let i = 0; i <= loopCount; i++) {
+      activeEditor.edit((builder) => {
+        const lineCount = activeEditor.document.lineCount - 1;
+        const loopCount = Math.floor(lineCount / 2);
+        for (let i = 0; i <= loopCount && i != lineCount - i; i++) {
           const iLine = activeEditor.document.lineAt(i);
-          const jLine = activeEditor.document.lineAt(lineCount - 1 - i);
+          const jLine = activeEditor.document.lineAt(lineCount - i);
           const iText = iLine.text;
           builder.replace(iLine.range, jLine.text);
           builder.replace(jLine.range, iText);
