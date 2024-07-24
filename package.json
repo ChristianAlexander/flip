@@ -24,11 +24,11 @@
     "commands": [
       {
         "command": "flip.document",
-        "title": "Reverse document lines"
+        "title": "Flip: Reverse document lines"
       },
       {
         "command": "flip.selection",
-        "title": "Reverse selected lines"
+        "title": "Flip: Reverse selected lines"
       }
     ],
     "menus": {
