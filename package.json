@@ -2,7 +2,7 @@
   "name": "flip",
   "displayName": "Flip",
   "description": "Reverse those lines!",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "ChristianAlexander",
   "icon": "images/flip.png",
   "repository": {
@@ -24,11 +24,13 @@
     "commands": [
       {
         "command": "flip.document",
-        "title": "Reverse document lines"
+        "title": "Reverse document lines",
+        "category": "Flip"
       },
       {
         "command": "flip.selection",
-        "title": "Reverse selected lines"
+        "title": "Reverse selected lines",
+        "category": "Flip"
       }
     ],
     "menus": {
